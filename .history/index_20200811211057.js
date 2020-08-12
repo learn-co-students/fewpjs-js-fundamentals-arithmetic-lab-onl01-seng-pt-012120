@@ -1,18 +1,18 @@
 
 // Write your code here
 
-const multiply = (num1,num2) => {
+let multiply = (num1,num2) => {
     return (num1 * num2);
 };
 
-const random = () => {
+let random = () => {
     return Math.floor(Math.random()*10)+1;
 };
 
-const mod = (mod) => {
+let mod = (mod) => {
     return (mod%4);
 };
 
-const max = (set) => {
+let max = (set) => {
    return Math.max(set);
 }
