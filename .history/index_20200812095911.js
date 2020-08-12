@@ -1,8 +1,8 @@
 
 // Write your code here
-let num1 = 31;
-let num2 = 2;
 const multiply = () => {
+    let num1 = 31;
+    let num2 = 2;
     return num1 * num2;
 };
 
@@ -11,7 +11,7 @@ const random = () => {
 };
 
 let m = 24;
-const mod = () => {
+const mod = (m) => {
     return (m%5);
 };
 

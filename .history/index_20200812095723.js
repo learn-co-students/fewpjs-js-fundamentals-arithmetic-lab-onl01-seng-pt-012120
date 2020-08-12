@@ -1,8 +1,8 @@
 
 // Write your code here
-let num1 = 31;
-let num2 = 2;
 const multiply = () => {
+    let num1 = 31;
+    let num2 = 2;
     return num1 * num2;
 };
 
@@ -11,11 +11,11 @@ const random = () => {
 };
 
 let m = 24;
-const mod = () => {
+const mod = (m) => {
     return (m%5);
 };
 
-// let set = [5,10,15,20];
-const max = () => {
-   return Math.max(5, 10, 15, 20);
+let set = [5,10,15,20];
+const max = (set) => {
+   return Math.max(set);
 }

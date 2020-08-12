@@ -11,7 +11,7 @@ const random = () => {
 };
 
 let m = 24;
-const mod = () => {
+const mod = (m) => {
     return (m%5);
 };
 
